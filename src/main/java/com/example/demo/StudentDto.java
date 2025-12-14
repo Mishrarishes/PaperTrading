@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class StudentDto {
     private String name;
-    private int studentClass;
+    private Integer studentClass; // Changed to Integer (wrapper) to allow null for missing values
 }
 
